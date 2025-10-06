@@ -32,9 +32,14 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link link" aria-current="page" href="index.html">Navegación</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link link-active" href="textoeimagen.html">Texto e Imagen</a>
+                        </li>                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="textoeimagen.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Texto e Imagen</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#ancla-1">Ancla 1#</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#ancla-2">Ancla 2#</a></li>                        
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link link" href="slider.html" aria-disabled="true">Slider</a>
@@ -57,6 +62,14 @@
                         <li class="nav-item">
                             <a class="nav-link link" href="footer.html" aria-disabled="true">Footer</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Responsive</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="grid.html">Grid</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="flex.html">Flex</a></li>                        
+                            </ul>
+                        </li>
                     </ul>                                
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar"/>
@@ -65,7 +78,7 @@
                 </div>
             </div>
         </nav>
-        <!-- Imagen y Texto Izquierda-->
+        <!-- Imagen y Texto Izquierda 1-->
         <div class="container mt-5">
             <div class="row mb-5">
                 <div class="col-md-12">
@@ -82,12 +95,48 @@
                 </div>
             </div>
         </div>
-        <!-- Imagen y Texto Derecha-->
+        <!-- Imagen y Texto Derecha 1-->
         <div class="fondo-gris pb-3">        
             <div class="container mt-5">
                 <div class="row mb-3">
                     <div class="col-md-12 mt-3">
                         <h1 class="text-center font-raleway">Fuente Raleway</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="font-bitcount">Diseño Web I</h1>
+                        <p class="font-roboto">"Soy programador y diseñador de sitios web con más de cinco años de experiencia. Poseo la habilidad, creatividad e innovación en mi campo de trabajo, que me distingue a la hora de realizar nuevos proyectos que representan desafios para mi carrera profesional y personal".</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <img class="img-fluid" src="img/inicio.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Imagen y Texto Izquierda 2-->
+        <div class="container mt-5">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <h1 id="ancla-1" class="text-center font-dancing-script">Ancla 1#</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="img/inicio.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h1>Diseño Web I</h1>
+                    <p>"Soy programador y diseñador de sitios web con más de cinco años de experiencia. Poseo la habilidad, creatividad e innovación en mi campo de trabajo, que me distingue a la hora de realizar nuevos proyectos que representan desafios para mi carrera profesional y personal".</p>
+                </div>
+            </div>
+        </div>
+        <!-- Imagen y Texto Derecha 2-->
+        <div class="fondo-gris pb-3">        
+            <div class="container mt-5">
+                <div class="row mb-3">
+                    <div class="col-md-12 mt-3">
+                        <h1 id="ancla-2" class="text-center font-raleway">Ancla 2#</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -131,6 +180,14 @@
                     </li>                    
                     <li class="nav-item">
                         <a href="footer.html" class="nav-link px-2 text-body-secondary link">Footer</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle nav-link px-2 text-body-secondary link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Responsive</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="grid.html">Grid</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="flex.html">Flex</a></li>                        
+                        </ul>
                     </li>
                 </ul>
                 <p class="text-center text-body-secondary">&copy; Diseño Web I - 2025</p>
