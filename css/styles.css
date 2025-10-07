@@ -169,13 +169,11 @@
      color: #ffffff;
 }
 
+#xbox{
+     font-size: 70px;
+     color: #16c802;
+}
 
-
-
-
-
-
-
-
-
-
+#xbox:hover{
+     color: #000000;
+}
