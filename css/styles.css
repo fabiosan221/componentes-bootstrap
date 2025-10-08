@@ -169,7 +169,137 @@
      color: #ffffff;
 }
 
+/* ---------------------------------------------------------------Estilos hoja grillas--------------------------------------------------------------- */
+.rojo{
+  background-color: #dc3545;
+  color: white;
+}
 
+.azul{
+  background-color: #3f3fbb;
+  color: white;
+}
+
+.verde{
+  background-color: #538b53;
+  color: white;
+}
+
+.magenta{
+  background-color: #9f739f;
+  color: white;
+}
+
+.amarillo{
+  background-color: yellow;
+  color: black;
+}
+
+.white{
+  background-color: white;
+  color: black;
+}
+
+.naranja{
+  background-color: #fd7e14;
+  display: block;
+}
+
+.cyan{
+  background-color: #0dcaf0;
+}
+
+.negro{
+  background-color: black;
+  color: white;
+  display: block;
+}
+
+.marron{
+  background-color: brown;
+  color: white;
+}
+
+.gris{
+  background-color: grey;
+  color: white;
+}
+
+.columna{
+  min-height: 250px;
+  padding: 10px;
+}
+
+.sub-columna{
+  height: 100px;
+  margin-top: 20px;
+}
+
+.margin-text{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* footer{
+  margin-top: 40px;
+  height: 50px;
+  background-color: black;
+} */
+
+/*Media Queries*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+  .naranja{
+    display: none;
+  }
+
+  .negro{
+    display: none;
+  }
+
+  .cyan{
+    background-color: #000FFF;
+    color: #FF9300;
+  }
+
+  .amarillo{
+    background-color: #FF9300;
+    color: #000FFF;
+  }
+
+  footer{
+    background-color: green !important;
+  }
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 767.98px) {
+  .naranja{
+    display: none;
+  }
+
+  .negro{
+    display: none;
+  }
+
+  footer{
+    background-color: green !important;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 991.98px) {
+  footer{
+    background-color: blue !important;
+  }
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399.98px) {
+
+}
+/* ---------------------------------------------------------------Estilos hoja grillas--------------------------------------------------------------- */
 
 
 
