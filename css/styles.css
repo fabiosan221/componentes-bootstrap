@@ -275,9 +275,9 @@
     color: #000FFF;
   }
 
-  footer{
+  /* footer{
     background-color: green !important;
-  }
+  } */
 }
 
 
@@ -291,16 +291,16 @@
     display: none;
   }
 
-  footer{
+  /* footer{
     background-color: green !important;
-  }
+  } */
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (max-width: 991.98px) {
-  footer{
+  /* footer{
     background-color: blue !important;
-  }
+  } */
 }
 
 /*X-Large devices (large desktops, 1200px and up)*/
@@ -309,11 +309,14 @@
 }
 /* ---------------------------------------------------------------Estilos hoja grillas--------------------------------------------------------------- */
 
+/* ---------------------------------------------------------------Estilos FlexBox--------------------------------------------------------------- */
+.flex-content {  
+  width: 500px;
+  /* height: 500px; */
+}
 
-
-
-
-
-
-
-
+.flex-item {  
+  width: 100px;
+  height: 100px;
+}
+/* ---------------------------------------------------------------Estilos FlexBox--------------------------------------------------------------- */
